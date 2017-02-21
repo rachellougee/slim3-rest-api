@@ -1,7 +1,7 @@
 {
     "name": "slim3-rest-api",
     "description": "Simple Slim3 rest API project ",
-    "keywords": ["slim-framework", "skeleton"],
+    "keywords": ["slim3", "skeleton"],
     "authors": [
         {
             "name": "Rachel Lougee",
