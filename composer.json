@@ -1,5 +1,19 @@
 {
+    "name": "slim3-rest-api",
+    "description": "Simple Slim3 rest API project ",
+    "keywords": ["slim-framework", "skeleton"],
+    "authors": [
+        {
+            "name": "Rachel Lougee",
+            "email": "rachellougee@gmail.com"
+        }
+    ],
     "require": {
-        "slim/slim": "^3.0"
+        "slim/slim": "^3.0",
+        "illuminate/database": "^5.2",
+        "illuminate/events": "^5.4"
+    },
+    "autoload": {
+         "psr-4": { "App\\": "app/src"}
     }
 }
