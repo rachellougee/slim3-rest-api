@@ -22,3 +22,11 @@ $ composer install
 $ php -S 0.0.0.0:8888 -t public public/index.php
 ```
 3. Go to  http://localhost:8888
+
+
+### Key files ###
+
+1. public/index.php : Entry point
+2. app/settings.php : configuration file such as database, other settings
+3. app/routes.php : application routes
+4. app/src/Models : model files
